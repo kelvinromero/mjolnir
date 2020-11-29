@@ -18,8 +18,11 @@ make
 
 ## Software installed
 
-- system packages
-  - git zsh
-- vscode
-- rubymine
-- oh-my-zsh
+- Dependencies for environment
+  - git 
+  - zsh
+  - Flatpak repositories
+- Development Environmnet
+  - vscode
+  - rubymine
+  - oh-my-zsh
