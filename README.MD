@@ -7,7 +7,7 @@ Builds my development environment.
 ```bash
 sudo dnf install make -y
 ```
-### 
+### Call mjolnir
 ```bash
 make mjolnir-come-back
 
