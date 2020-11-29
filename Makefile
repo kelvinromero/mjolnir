@@ -1,4 +1,5 @@
 mjolnir-come-back:
+	flatpak
 	dependencies
 	rubymine
 
@@ -11,6 +12,9 @@ rubymine:
 
 ohmyzsh:
 	./lib/install_ohmyzsh.sh
+
+flatpak:
+	./lib/install_flathub.sh
 
 executable:
 	chmod +x lib/*.sh
