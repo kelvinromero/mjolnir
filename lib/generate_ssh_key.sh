@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt show xclip
+sudo apt show xclip > /dev/null 2>&1
 if [ ! $? -eq 0]; then
     echo "Installing dependencies"
     sudo apt install xclip
