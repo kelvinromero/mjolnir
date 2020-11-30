@@ -14,8 +14,8 @@ fi
 
 if [ ! -f ~/.ssh/id_ed25519.pub ]; then
     echo "Criando chave SSH"
-    ssh-keygen -t ed25519 -C "$1"
+    ssh-keygen -t ed25519 -C "$1" -f ~/.ssh/id_ed25519.pub
 fi
 
 echo "SSH key copyed!"
-xclip -sel clip <~/.ssh/id_ed25519.pub
+xclip -sel clip < ~/.ssh/id_ed25519.pub
