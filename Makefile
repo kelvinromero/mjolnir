@@ -16,5 +16,8 @@ ohmyzsh:
 flatpak:
 	./lib/install_flathub.sh
 
+docker-ecosystem:
+	./lib/install_docker.sh
+
 executable:
 	chmod +x lib/*.sh
