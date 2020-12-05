@@ -1,3 +1,4 @@
 #!/bin/bash
+#TODO:  test if ubuntu
 
-echo "Hello world!";
+sudo snap install code --classic
