@@ -19,5 +19,8 @@ flatpak:
 docker-ecosystem:
 	./lib/install_docker.sh
 
+ssh-key:
+	./lib/generate_ssh_key.sh $(name)
+
 executable:
 	chmod +x lib/*.sh
